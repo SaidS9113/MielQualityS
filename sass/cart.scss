@@ -1,0 +1,111 @@
+/*---------Panier et contenues dans le panier---------------*/
+.cart {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    min-height: 100%;
+    padding: 20px;
+    background: var(--blanche);
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition: 0.3s;
+    z-index: 200;
+
+
+
+
+}
+
+.cartt {
+    display: flex;
+
+    background: none;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    width: 150px;
+
+}
+
+
+
+/* Styles pour activer la barre de défilement */
+
+
+
+
+
+
+
+.header .cartt i {
+    padding-left: -10px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    color: #000000 !important;
+    margin-right: 15px;
+
+
+}
+
+
+.header .cartt .bx-search-alt-2 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+
+}
+
+.croix-titre-cart {
+
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#close-cart {
+
+
+    font-size: 2rem;
+    color: #828282;
+    cursor: pointer;
+
+}
+
+#cart-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+
+
+.cart-title {
+    text-align: center;
+    width: 300px;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.cart.active {
+
+    right: 0;
+    height: 775px;
+
+
+
+}
+
+
+.bottom2-content {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    /* Couleur d'arrière-plan de votre contenu fixe */
+    min-height: 60px;
+    text-align: center;
+    width: 23%;
+
+}
