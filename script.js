@@ -2,18 +2,32 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const menuBtn = document.getElementById('menu-btn');
-    console.log(menuBtn);
+   
     const navbarList = document.querySelector('.mobile-first');
-    console.log(navbarList);
+    
     const closeBtn = document.getElementById('close-btn');
-    console.log(closeBtn);
+
+    const cartBtn = document.getElementById('cart-icon');
+   
+    const panierProduct = document.querySelector('.cart');
+
+    const closeBtnCart = document.getElementById('close-btn-cart');
 
     menuBtn.addEventListener('click', function() {
         navbarList.style.left = '0'; 
     });
 
+
     closeBtn.addEventListener('click', function() {
         navbarList.style.left = '-100%'; 
+    });
+
+    cartBtn.addEventListener('click', function() {
+        panierProduct.style.right = '0'; 
+    });
+
+    closeBtnCart.addEventListener('click', function() {
+        panierProduct.style.right = '-100%'; 
     });
 });
 
@@ -58,25 +72,4 @@ for (let i = 0; i < slides2.length; i++){
 
 
 setInterval(nextSlide2, 1800);
-
-
-// Variable pour suivre l'état du cart
-let cartIcon = document.querySelector('#cart-icon');
-let cart = document.querySelector('.cart');
-let closeCart = document.querySelector('#close-cart');
-let body = document.body;
-
-// Open Cart
-cartIcon.onclick = () => {
-cart.classList.add("active");
-body.classList.add("cart-active");
-document.body.style.overflow = "hidden"; // Désactive le défilement global du corps
-};
-
-// Close Cart
-closeCart.onclick = () => {
-cart.classList.remove("active");
-body.classList.remove("cart-active");
-document.body.style.overflow = "visible"; // Réactive le défilement global du corps
-};
 

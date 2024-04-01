@@ -27,21 +27,16 @@ header {
             width: 60px;
             height: 60px;
             text-align: center;
-
-
         }
     }
 
     .bx-search {
         font-size: 1.8rem;
-
     }
 
     #cart-icon {
         font-size: 2rem;
         font-weight: 500;
-
-
     }
 
     .bx-shopping-bag sup {
@@ -59,9 +54,6 @@ header {
         line-height: 9px;
         text-align: center;
         padding: .1rem;
-
-
-
     }
 
     .bx-user {
@@ -80,16 +72,9 @@ header {
         height: 100%;
         z-index: 200;
         overflow: hidden;
-
-
-
     }
 
-
-
-
     .mobile-first .listSite {
-
         margin-bottom: 10%;
         list-style: none;
     }
@@ -98,12 +83,9 @@ header {
         padding: 10px;
         border-bottom: 1px solid #e1e1e1;
         border-top: 1px solid #ededed;
-
         padding-top: 20px;
         padding-bottom: 20px;
-
     }
-
 
     .mobile-first .listSite li a {
         text-decoration: none;
@@ -111,7 +93,6 @@ header {
         transition: color 0.3s ease;
         font-size: 1.2rem;
         font-weight: 500;
-
     }
 
     .mobile-first .listSite li a:hover {
@@ -119,7 +100,6 @@ header {
     }
 
     .logoNavbar {
-
         margin-top: 5%;
         display: flex;
         justify-content: center;
@@ -128,7 +108,6 @@ header {
     .mobile-first img {
         width: 150px;
         height: auto;
-
     }
 
     #close-btn {
@@ -142,13 +121,9 @@ header {
 
     .reseauxScl {
         border: 2px solid #000;
-
-
-
     }
 
     .listReseauxScl {
-
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -156,19 +131,14 @@ header {
         list-style: none;
         margin: 5%;
         margin-top: -40px;
-
-
     }
 
     .listReseauxScl li {
-
         width: 10%;
     }
 
     .listReseauxScl a {
-
         text-decoration: none;
-
     }
 
     .listReseauxScl i {
@@ -179,7 +149,6 @@ header {
 
     .listReseauxScl i:hover {
         color: #ff8000;
-
     }
 
     .barre-recherche-tablette {
@@ -200,14 +169,10 @@ header {
     .barre-recherche-pc {
         display: none;
     }
-
-
-
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
     header {
         display: block;
 
@@ -217,13 +182,10 @@ header {
             justify-content: flex-end;
             align-items: center;
 
-
             img {
                 width: 60px;
                 height: 60px;
                 text-align: center;
-
-
             }
         }
 
@@ -234,7 +196,6 @@ header {
             align-items: center;
             padding: 10px;
         }
-
 
         .mobile-first_menu_logo {
             display: none;
@@ -249,21 +210,15 @@ header {
 
         .tablette-first_recherche_cart {
             display: block;
-
             width: 100px;
             display: flex;
             justify-content: flex-end;
             align-items: center;
 
-
             .bx-search {
                 display: none;
             }
         }
-
-
-
-
 
         .search {
             border: 1.8px solid #393939;
@@ -274,8 +229,6 @@ header {
             align-items: center;
             border-radius: 8px;
             margin: 3px;
-
-
         }
 
         .search-field {
@@ -285,35 +238,24 @@ header {
             height: 20px;
             position: absolute;
             border: none;
-
-
-
         }
-
-
 
         .search-field::placeholder {
             font-size: 1.1rem;
             color: #c0c0c0;
-
         }
 
         .search button {
             background-color: #fff;
             border: none;
-
-
         }
 
         .bx-search {
-
-
             font-weight: bold;
             font-size: 1.5rem;
             background-color: #fff;
             text-align: center;
             display: block;
-
         }
 
         .bx-user {
@@ -335,15 +277,7 @@ header {
             line-height: 9px;
             text-align: center;
             padding: .1rem;
-
-
-
         }
-
-
-
-
-
 
         input,
         textarea {
@@ -355,7 +289,6 @@ header {
             margin: .5rem 0;
             border: 1px solid var(--orange);
             width: 100%;
-
         }
 
         button {
@@ -363,25 +296,15 @@ header {
             border: none;
             outline: none;
             cursor: pointer;
-
         }
 
         .barre-recherche-pc {
             display: none;
         }
-
-
-
-
-
     }
-
-
 }
 
 @media only screen and (min-width: 1024px) {
-
-
     header {
         display: block;
         padding: 0px 10px;
@@ -392,13 +315,10 @@ header {
             justify-content: flex-end;
             align-items: center;
 
-
             img {
                 width: 60px;
                 height: 60px;
                 text-align: center;
-
-
             }
         }
 
@@ -410,16 +330,12 @@ header {
             padding: 10px;
         }
 
-
-
         .barre-recherche-tablette {
             display: none;
-
         }
 
         .tablette-first_recherche_cart {
             display: block;
-
             width: 80px;
             display: flex;
             justify-content: flex-end;
@@ -427,25 +343,10 @@ header {
             justify-content: space-between;
             margin-top: 25px;
 
-
             .bx-search {
                 display: none;
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         .bx-user {
             display: block;
@@ -468,11 +369,6 @@ header {
             padding: .1rem;
         }
 
-
-
-
-
-
         input,
         textarea {
             background: #fff;
@@ -483,7 +379,6 @@ header {
             margin: .5rem 0;
             border: 1px solid var(--orange);
             width: 100%;
-
         }
 
         button {
@@ -491,13 +386,11 @@ header {
             border: none;
             outline: none;
             cursor: pointer;
-
         }
 
         #menu-btn {
             display: none;
         }
-
 
         .barre-recherche-pc {
             display: block;
@@ -524,17 +417,11 @@ header {
                 height: 20px;
                 position: absolute;
                 border: none;
-
-
-
             }
-
-
 
             .search-field::placeholder {
                 font-size: 1.1rem;
                 color: #c0c0c0;
-
             }
 
             .search button {
@@ -546,11 +433,6 @@ header {
             button {
                 margin-right: 5px;
             }
-
-
-
-
-
         }
 
         .version-desktop {
@@ -565,12 +447,10 @@ header {
                 align-items: center;
                 list-style: none;
                 width: 60%;
-
             }
 
             li {
                 position: relative;
-
             }
 
             a {
@@ -580,9 +460,6 @@ header {
                 font-weight: 600;
                 font-family: 'Spectral', serif;
             }
-
         }
-
-
     }
 }

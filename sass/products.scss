@@ -17,7 +17,6 @@
         width: 20%;
         height: 1.2px;
         background-color: rgb(180, 180, 180);
-
     }
 
     h2::before {
@@ -61,7 +60,6 @@
         padding-top: 20px;
         font-family: "Spectral", serif;
         font-weight: 500;
-
     }
 
     p {
@@ -94,7 +92,6 @@
 
         .nameAvis {
             font-weight: bold;
-
         }
     }
 }
@@ -133,9 +130,7 @@
     }
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
     .products {
         h2 {
             font-size: 2rem;
@@ -155,12 +150,9 @@
             display: grid;
             grid-template-columns: 33.33% 33.33% 33.33%;
         }
-
-
     }
 
     .quality {
-
         h2 {
             font-size: 2rem;
         }
@@ -187,14 +179,10 @@
             font-size: 1.5rem;
             font-weight: bold;
         }
-
-
-
     }
 }
 
 @media only screen and (min-width: 1024px) {
-
     .products {
         h2 {
             font-size: 1.8rem;
@@ -216,8 +204,6 @@
             grid-template-columns: 25% 25% 25% 25%;
             padding: 0 70px;
         }
-
-
     }
 
     .quality {
@@ -258,10 +244,5 @@
             font-size: 1.5rem;
             font-weight: bold;
         }
-
-
-
     }
-
-
 }

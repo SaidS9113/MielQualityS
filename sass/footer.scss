@@ -71,9 +71,6 @@
         line-height: 1.5;
     }
 
-
-
-
     form {
         display: flex;
         flex-direction: column;
@@ -98,10 +95,6 @@
 
         }
 
-
-
-
-
         .buttonNewsletter {
             border-radius: 20px;
             width: 150px;
@@ -114,10 +107,7 @@
             font-family: "Montserrat", sans-serif;
         }
     }
-
-
 }
-
 
 .sous-footer {
     background-color: rgb(254, 254, 254);
@@ -153,17 +143,13 @@
             text-decoration: none;
             color: #7c7c7c;
         }
-
-
     }
 
     .copyR {
         margin-top: 10px;
         color: #7c7c7c;
     }
-
 }
-
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
@@ -173,7 +159,6 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-
 
         form {
             display: flex;
@@ -188,16 +173,11 @@
                 border: 1px solid #c0c0c0;
 
             }
-
         }
-
-
     }
 }
 
-
 @media only screen and (min-width: 1024px) {
-
     .haut-footer {
         display: grid;
         grid-template-columns: 33.33% 33.33% 33.33%;
@@ -208,15 +188,11 @@
         margin-top: 100px;
 
         .infos-footer1 {
-
-
             font-size: 0.9rem;
-
         }
 
         .infos-footer2 {
             font-size: 0.9rem;
-
         }
 
         form {
@@ -232,13 +208,7 @@
                 height: 37px;
                 border-radius: 5px;
                 border: 1px solid #c0c0c0;
-
             }
-
         }
-
-
     }
-
-
 }
