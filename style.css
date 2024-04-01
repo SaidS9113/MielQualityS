@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .promo {
   background-color: #f37923;
   color: #000;
@@ -66,13 +70,10 @@ header .mobile-first {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.968);
   left: -100%;
-  /* Fenêtre de menu initialement cachée */
   top: 0;
   width: 100%;
   height: 100%;
-  /* Largeur de la fenêtre de menu */
   transition: left 0.3s ease;
-  /* Animation de transition */
   height: 100%;
   z-index: 200;
   overflow: hidden;
@@ -411,7 +412,7 @@ header .barre-recherche-pc {
   top: 0;
   right: -100%;
   width: 300px;
-  min-height: 100%;
+  height: 100%;
   padding: 20px;
   background: var(--blanche);
   box-shadow: -2px 0 4px hsla(0, 4%, 15%, 0.1);
@@ -449,7 +450,8 @@ header .barre-recherche-pc {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
+  border: 1px solid red;
 }
 
 #close-cart {
