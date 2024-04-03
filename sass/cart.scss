@@ -1,7 +1,7 @@
 /*---------Panier et contenues dans le panier---------------*/
 .cart {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.978);
+    background-color: rgb(255, 255, 255);
     right: -100%;
     top: 0;
     width: 100%;
@@ -33,7 +33,19 @@
         color: #5b5b5b;
     }
 
+}
 
+@media only screen and (min-width: 1024px) {
+    .cart {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 20%;
+        height: 100%;
+        transition: right 0.3s ease;
+        height: 100%;
+        z-index: 200;
+        overflow: hidden;
 
-
+}
 }
